@@ -15,8 +15,20 @@ body {
     background-color: white;
     border: none ;
     margin: auto;
+    min-width: 400px;
     max-width: 400px;
     min-width: 330px;
+
+}
+
+.post details {
+height: auto;
+}
+
+summary{
+    /* background-color: red; */
+    list-style: none; /* Elimina el triángulo por defecto */
+
 }
 
 .post-header{
@@ -34,9 +46,41 @@ body {
     width: 100%;
 }
 
+img{
+    max-width: 100%;
+}
+
 .post-icons{
-    background-color: blue;
+    /* border: solid red 1px; */
+    background-color: white;
     height: 40px;
-    width: 100%;
-    display: inline-block;
+    display: flex;
+    gap: 5px;
+    font-size: 28px;
+    padding-top: 10px;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+
+.post-body{
+    padding: 10px;
+}
+
+h4.text-instagram-sumary {
+    padding-left: 10px;
+    color: black;
+}
+
+p.text-post-details {
+    padding: 10px;
+}
+
+#tags{
+    padding-top: 3px;
+    color:black
+}
+
+#tags:hover{
+    color: rgb(9, 9, 162);
 }
