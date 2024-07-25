@@ -5,10 +5,10 @@ body {
 }
 
 .wraper{
-    background-color: black;
+    background-color: #0d0c0d;
     padding: 30px;
     display: flex;
-    flex-direction: ;
+    max-height: 400px;
 
 }
 .post{
@@ -20,7 +20,22 @@ body {
     min-width: 330px;
 
 }
+.logo{
+    background-color: yellow;
+    max-width: 30px;
+    min-height: 30px;
+    border-radius: 40px;
+    margin: 10px;
+    position: relative;
 
+}
+
+
+#logoUser{
+    position: absolute;
+    top: 10px;
+    right:8px
+}
 .post details {
 height: auto;
 }
