@@ -1,0 +1,42 @@
+body {
+    background-color:  #0d0c0d;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.wraper{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: ;
+
+}
+.post{
+    background-color: white;
+    border: none ;
+    margin: auto;
+    max-width: 400px;
+    min-width: 330px;
+}
+
+.post-header{
+    background-color: white;
+    height: 60px;
+}
+
+.post-header.logo{
+    display: flex;
+    flex-direction: row;
+}
+.post-image{
+    background-color: green;
+    height: 220px;
+    width: 100%;
+}
+
+.post-icons{
+    background-color: blue;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+}
