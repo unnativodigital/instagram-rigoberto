@@ -58,13 +58,26 @@ summary{
 .post-header{
     background-color: white;
     height: 60px;
+    display: flex;
 }
 
 
 .post-header.logo{
-    display: flex;
     flex-direction: row;
 }
+
+.user-name{
+min-width: 75%;
+}
+
+.header-points{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    align-self: center;
+
+}
+
 .post-image{
     background-color: green;
     height: 220px;
