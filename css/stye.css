@@ -52,7 +52,6 @@ height: auto;
 summary{
     /* background-color: red; */
     list-style: none; /* Elimina el triángulo por defecto */
-
 }
 
 .post-header{
@@ -119,3 +118,5 @@ p.text-post-details {
 #tags:hover{
     color: rgb(9, 9, 162);
 }
+
+
